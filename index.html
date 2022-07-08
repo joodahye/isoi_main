@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>아이소이 메인화면</title>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600&family=Roboto+Serif:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/jquery-1.12.3.js"></script>
@@ -89,18 +89,24 @@
 		<main>
 			<section id="f1">
 			<div id="bestforyou">
+				<div id="Btext">
 				<h2><ruby>Best for You
 				<rt>view all &gt;</rt>
 				</ruby>
 				</h2>
-				<div>
-					<a href="#"><img src="images/화살표오.png" alt="화살표"></a>
-					<a href="#"><img src="images/화살표왼.png" alt="화살표"></a>
+				</div>
+				<div id="arrow">
+					<button href="#" class="arrowr"><img src="images/화살표오.png" alt="화살표" ></button>
+					<button href="#" class="arrowl"><img src="images/화살표왼.png" alt="화살표"></button>
 				</div>
 			</div>
-			<div id="centerflower">
-				<img src="images/베스트포유장미.png" alt="배경장미">
+			<div id="centerflower">				
+				<img src="images/베스트포유장미.png" alt="배경장미">				
 				<div id="product">
+					<div class="pro7">
+						<img src="images/산뜻로션.png" alt="제품4">
+						<p>산뜻로션<br>피지가 도망가는, 산뜻로션 70ml</p>
+					</div>
 					<div class="pro1">
 						<img src="images/초록병.png" alt="제품1">
 						<p>moisture Dr.toner<br>아이소이 모이스춰 닥처토너 130ml</p>
@@ -121,6 +127,11 @@
 						<img src="images/불가리안로즈.png" alt="제품4">
 						<p>blemish care serum<br>블레이쉬 케어 업 세럼 (잡티세럼) 35ml</p>
 					</div>
+					<div class="pro6">
+						<img src="images/네버드라잉.png" alt="제품4">
+						<p>NEVER DRYING<br>네버드라잉 얼티미트 크림에센스 70ml</p>
+					</div>
+					
 				</div>
 			</div>
 			</section>
@@ -130,59 +141,75 @@
 				<p>Isoi is</p>
 				</div>				
 				<div class="i1">				
-				<a href="#" class="a1">Intelligent</a>
-				<div class="d1"><img src="images/바다밑.jpg" alt="바다밑"><span>피부와 몸에 유익한 브랜드를 고르는<br>지적인 여성</span></div>				
+				<a href="#" class="a1">Intelligent</a><br>
+				<a href="#" class="a2">Important</a><br>
+				<a href="#" class="a3">Innocent</a>
+				</div>
+								
+				<div class="aa1"><div><img src="images/바다밑.jpg" alt="바다밑" ><span>피부와 몸에 유익한 브랜드를 고르는<br>지적인 여성</span></div>				
 				<img src="images/꽃.png" alt="꽃">
 				</div>
-				<div class="i2">				
-				<a href="#">Important</a>
+				
+				<div class="aa2">			
 					<div><img src="images/창.png" alt="창"><span>자신에 대해 자부심과 자긍심으로<br>유익한 것에 투자할 수 있는 여성</span></div>				
 				<img src="images/장미.png" alt="장미">
 				</div>
-				<div class="i3">				
-				<a href="#">Innocent</a>
+				
+				<div class="aa3">				
 					<div><img src="images/창문.png" alt="창문"><span>무자극 화장품을 선호하는 순수한 여성</span></div>				
 				<img src="images/풀.png" alt="풀">
 				</div>				
 			</section>
 			<section id="f3">
 				<h3>img</h3>
-				<img src="images/중간배너.jpg" alt="중간배너">
+				<!--<img src="images/중간배너.jpg" alt="중간배너">-->
 			</section>
-			<section>
-				<h2>Brand</h2>
-				<img src="images/아이소이로고.png" alt="로고">
+			
+			<section id="f4">
+				<h4>Brand</h4>
+					<img src="images/logo_blk.png" alt="로고">
 					<div class="b1">
-						<img src="images/브랜드1.png" alt="b1">
-						<p>BUGARIAN<br>ROSE</p>
-						<span>11products</span>
+					<img src="images/브랜드1.png" alt="b1">
+						<div>
+							<a href="#"><p>BUGARIAN<br>ROSE</p>
+							<span>11products</span></a>
+						</div>
 					</div>
 					<div class="b2">
 						<img src="images/브랜드3.png" alt="b3">
-						<p>TEAFFERANCE</p>
-						<span>5products</span>
-					</div><div class="b3">
+						<div>
+							<a href="#"><p>TEAFFERANCE</p>
+							<span>5products</span></a>
+						</div>
+					</div>
+					<div class="b3">
 						<img src="images/브랜드2.png" alt="b2">
-						<p>CIGA·GO</p>
-						<span>5products</span>
+						<div>
+							<a href="#"><p>CIGA·GO</p>
+							<span>5products</span></a>
+						</div>
 					</div>
 			</section>
 		</main>
 		<footer>
 			<div id="footer1">
+				
 				<a href="#">회원가입</a> ｜ <a href="#">로그인</a>
-				<a href="#"><img src="images/인스타그램.png" alt="인스타그램"></a>
-				<a href="#"><img src="images/페이스북.png" alt="페이스북"></a>
+				
+				
+				<a href="#" class="insta"><img src="images/인스타그램.png" alt="인스타그램"></a>
+				<a href="#"><img src="images/페이스북1.png" alt="페이스북"></a>
+				
 			</div>
-			<div>
+			<div  id="footer2">
 			 ㈜자연인 사업자 정보<br>
 
 				펼침<br>
-				대표이사 : 이진민주소 : 서울 광진구 동일로 288 아이소이 빌딩<br>
+				대표이사 : 이진민 /				주소 : 서울 광진구 동일로 288 아이소이 빌딩<br>
 
-				고객센터 : 1800-9100(평일 09:00-18:00)팩스 : 02-6917-7350<br>
+				고객센터 : 1800-9100 (평일 09:00-18:00) 팩스 : 02-6917-7350<br>
 
-				이메일 : cs@isoi.co.kr사업자등록번호 : 101-86-43209<br>
+				이메일 : cs@isoi.co.kr / 사업자등록번호 : 101-86-43209<br>
 
 				통신판매업신고번호 : 제 2014-서울광진-0018호<br>
 
