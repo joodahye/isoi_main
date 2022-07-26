@@ -152,13 +152,15 @@ main{
 	width:100%;
 	margin:0 auto;
 	height:700px;
-	overflow:hidden;padding-bottom:400px;
+	overflow:hidden;
+	padding-bottom:400px;
 }
 #centerflower>img{
 	position:absolute;
 	width:450px;
 	margin:auto;
-	opacity:70%;
+	opacity:0.5;
+	top:20%;
 	left:50%;
 	transform:translate(-50%);
 }
@@ -252,96 +254,96 @@ main{
 	color:white;
 	position:relative;
 }
-.aa1{
-	/*display:none;*/
-}
-.aa1>div{
+
+.aa1 div:nth-child(1){
+	opacity:1;
 	position:absolute;
-	top:250px;
-	right:530px;
+	top:25vh;
+	right:25vw;
 	text-align:right;
-	animation:slide1 2s ease-out;
 }
-@keyframes slide1{
-	from{
-						right:200px;
-						opacity:0;
-	}
-	to{
-						right:530px;
-						opacity:1;
-	}
+.aa1>div:nth-child(1)>img{
+	width:300px;
 }
+.aa1>div:nth-child(2){
+position:absolute;
+	bottom:15vh;
+	left:26vw;
+	opacity:1;
+}
+.aa1>div:nth-child(2)>img{
+	width:150px;
+}
+
 .aa1>div>span{
 	font-size:0.9rem;
 	font-family:'Noto Serif KR', serif;
 }
-.aa1>div>img{
-	width:300px;
-}
 
-.aa1>img{
-	width:150px;
-	position:absolute;
-	top:700px;
-	left:500px;
-}
 /*important*/
 .a2:hover{
 	z-index:1;
 	color:white;
 	position:relative;
 }
-.aa2{
-	display:none;
-}
-.aa2>div{
+
+.aa2>div:nth-child(1){
 	position:absolute;
-	top:250px;
-	left:430px;
+	top:25vh;
+	left:26vw;
 	text-align:left;
+	opacity:0;
 }
 .aa2>div>span{
 	font-size:0.9rem;
 	font-family:'Noto Serif KR', serif;
 }
-.aa2>div>img{
+.aa2>div:nth-child(1)>img{
 	width:300px;
 }
-.aa2>img{
+.aa2>div:nth-child(2){
 	position:absolute;
+	bottom:16vh;
+	right:28vw;
+	opacity:0;
+	}
+.aa2>div:nth-child(2)>img{
 	width:150px;
-	top:700px;
-	right:500px;
 }
+
+
+
 /*innocent*/
 .a3:hover{
 	z-index:1;
 	color:white;
 	position:relative;
 }
-.aa3{
-	display:none;
-}
-.aa3>div{
+
+.aa3>div:nth-child(1){
 	position:absolute;
-	top:300px;
-	right:430px;
+	top:30vh;
+	right:26vw;
 	text-align:right;
+	opacity:0;
 }
 .aa3>div>span{
 	font-size:0.9rem;
 	font-family:'Noto Serif KR', serif;
 }
-.aa3>div>img{
+.aa3>div:nth-child(1)>img{
 	width:300px;
 }
-.aa3>img{
-	width:150px;
+.aa3>div:nth-child(2){
 	position:absolute;
-	top:250px;
-	left:430px;
+	top:25vh;
+	left:25vw;
+	opacity:0;
 }
+.aa3>div:nth-child(2)>img{
+	width:150px;
+}
+
 /*일러그림*/
 #f3{
 	background-image:url(images/중간배너.jpg);
@@ -379,11 +381,11 @@ main{
 	width:350px;
 }
 #f4>.b1{
-	left:500px;	top:800px; opacity:0;
+	left:500px;	top:234px; opacity:1;
 	/*animation:b1 2s ease-out;*/
 }
 
-.bb1 {animation:b1 2s ease-out both;}
+/*.bb1 {animation:b1 2s ease-out both;}
 @keyframes b1{
 	from{
 		top:800px;
@@ -393,14 +395,14 @@ main{
 		top:234px;
 		opacity:1;
 	}
-}
+}*/
 
 #f4>.b2{
-	top:800px; opacity:0;
+	top:100px; opacity:1;
 	right:500px;
 
 }
-.bb2 {animation:b2 2s ease-out both;}
+/*.bb2 {animation:b2 2s ease-out both;}
 
 @keyframes b2{
 	from{
@@ -411,13 +413,13 @@ main{
 		top:100px;
 		opacity:1;
 	}
-}
+}*/
 #f4>.b3{
 	right:630px;
-	top:800px;
-	opacity:0;
+	top:450px;
+	opacity:1;
 }
-
+/*
 .bb3{animation:b3 2s ease-out both;}
 
 @keyframes b3{
@@ -429,7 +431,7 @@ main{
 		top:450px;
 		opacity:1;
 	}
-}
+}*/
 
 
 .b1>div>a{
